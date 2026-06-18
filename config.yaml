@@ -1,5 +1,10 @@
 id: QmZDzo48SHcSYQPeGkQomXq5h4i2N4oxrcjpFKfcgyWiBf
 name: 1stdreamproject
-description: ""
+description: "DreamNotify: Resource monitoring and notification system."
 notification:
     email: petervharrington@gmail.com
+monitoring:
+    cpu_threshold: 90
+    memory_threshold: 90
+    disk_threshold: 90
+    check_interval: 60
